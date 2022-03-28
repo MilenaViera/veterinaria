@@ -1,0 +1,21 @@
+.banner{
+  background-size: cover;
+  background-position: center;
+  padding: 90px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  h1{
+    color: $purple-plum;
+    font-family: $title-font;
+    position: absolute;
+    top: 5px;
+    left: 20%;
+  }
+  p{
+    color: $dark-violet;
+    position: absolute;
+    top: 33px;
+    left: 29%;
+  }
+}
