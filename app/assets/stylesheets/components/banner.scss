@@ -2,20 +2,18 @@
   background-size: cover;
   background-position: center;
   padding: 115px 0;
-  position: relative;
   display: flex;
-  align-items: center;
-  h1{
-    color: $purple-plum;
-    font-family: $title-font;
-    position: absolute;
-    top: 5px;
-    left: 20%;
+  justify-content: center;
+  width: 100%;
+  .content{
+    width: 100%;
+    h1{
+      color: $purple-plum;
+      font-family: $title-font;
+    }
+    p{
+      color: $dark-violet;
+    }
   }
-  p{
-    color: $dark-violet;
-    position: absolute;
-    top: 33px;
-    left: 29%;
-  }
+
 }
