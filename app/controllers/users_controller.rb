@@ -3,8 +3,15 @@ class UsersController < ApplicationController
   end
 
   def new
+    @user = User.new
   end
 
   def create
+    PruebaCorreosMailer.envio(user_params).deliver_now
+    PruebaCorreosMailer.enviarme(user_params).deliver_now
+  end
+
+  def user_params
+    params.require(:user).permit(:name, :coment, :email)
   end
 end
