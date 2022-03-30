@@ -1,0 +1,55 @@
+.container-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  #card-servicios{
+    background-color: $honeywhite;
+    box-shadow: -8px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    p{
+      font-size: x-small;
+      color: $air-blue;
+    }
+    h5{
+      color: $dark-violet;
+    }
+    img{
+      width: 30px;
+    }
+  }
+}
+
+#card-vet{
+ box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ margin-bottom: 21px;
+ border-radius: 6px;
+ width: 18rem;
+  h5{
+    color: $dark-violet;
+  }
+}
+
+
+.recomendacion{
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  background: white;
+  padding: 8px 16px;
+  border: 1px solid rgb(235, 235, 235);
+  width: 18rem;
+
+  .recomendacion-content{
+    flex-grow: 1;
+    padding: 0 24px;
+  }
+  p{
+    margin: 0;
+    line-height: 1.4;
+  }
+.avatar-large{
+  width: 100px;
+}
+#star{
+  color: $purple-plum;
+}
+}
