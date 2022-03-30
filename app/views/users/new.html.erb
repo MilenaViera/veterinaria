@@ -1,3 +1,9 @@
-<h1>Users#new</h1>
-<p>Find me in app/views/users/new.html.erb</p>
-<p>Asignado a santi</p>
+<h2>Formulario:</h2>
+
+<%= simple_form_for @user do |f| %>
+  <%= f.input :name, placeholder: 'Tu nombre...'  %>
+  <%= f.input :coment %>
+  <%= f.input :email, placeholder: 'user@domain.com'  %>
+  <%= f.submit 'Enviar formulario' %>
+<% end %>
+
