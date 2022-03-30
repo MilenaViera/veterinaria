@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   root to: 'users#index'
-  resources :users, only: [:create, :new]
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get '/contact', to: 'users#new', as: "new_user"
+  post '/contact', to: 'users#create', as: "users"
 end
