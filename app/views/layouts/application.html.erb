@@ -22,9 +22,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Nuestros servicios</a>
-            <a class="nav-link" href="#">Contacto</a>
+            <%= link_to "Home", root_path, class: "nav-link active" %>
+            <%= link_to "Nuestros servicios", root_path(anchor: "nuestros_servicios"), class: "nav-link"%>
+            <%= link_to "Contacto", new_user_path, class: "nav-link"  %>
           </div>
         </div>
       </div>
