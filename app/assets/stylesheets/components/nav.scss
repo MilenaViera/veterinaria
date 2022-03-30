@@ -1,0 +1,14 @@
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  img{
+    width: 80px;
+  }
+  .nav-link{
+    color: $purple-plum;
+  }
+ .navbar-toggler-icon{
+   color: $air-blue;
+ }
+
+}
