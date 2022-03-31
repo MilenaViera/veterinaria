@@ -19,20 +19,17 @@
 // }
 
 footer{
-  border: red solid 1px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #d6edeb;
+  width:100%;
   img{
     width: 120px;
   }
   .contactos{
-    border: blue solid 1px;
     display: flex;
     align-items: center;
     ul{
-      border: solid green 1px;
-      padding-top: 11px;
-      margin: 0 5px;
       li{
         list-style: none;
         color: $air-blue;

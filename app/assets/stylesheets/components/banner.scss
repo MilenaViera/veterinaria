@@ -7,12 +7,16 @@
   width: 100%;
   .content{
     width: 100%;
+    position: absolute;
+    top: 124px;
     h1{
       color: $purple-plum;
       font-family: $title-font;
     }
     p{
       color: $dark-violet;
+      position: relative;
+      top: -20px;
     }
   }
 
