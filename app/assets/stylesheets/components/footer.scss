@@ -1,0 +1,48 @@
+// footer{
+//   display: grid;
+//   grid-template-columns: 1fr 1fr 1fr;
+
+//   .logo-f{
+//     width: 120px;
+//     img{
+//       width: 100%;
+//     }
+// }
+//   ul li{
+//     list-style: none;
+//     color: $air-blue;
+//     font-size: 10px;
+//     i{
+//       color: $purple-plum;
+//     }
+//   }
+// }
+
+footer{
+  border: red solid 1px;
+  display: flex;
+  justify-content: space-between;
+  img{
+    width: 120px;
+  }
+  .contactos{
+    border: blue solid 1px;
+    display: flex;
+    align-items: center;
+    ul{
+      border: solid green 1px;
+      padding-top: 11px;
+      margin: 0 5px;
+      li{
+        list-style: none;
+        color: $air-blue;
+        font-size: 10px;
+        padding-top: 11px;
+        i{
+          color: $purple-plum;
+        }
+      }
+    }
+
+  }
+}
