@@ -1,9 +1,16 @@
-<h2>Formulario:</h2>
+<div  class="container-fluid contacto">
+  <div class="map">
+    <h2> Encontranos en </h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13157.967025487158!2d-58.590382987007274!3d-34.465047310839715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca530ab82175b%3A0xd3aec29f3df7ecfb!2sAv.%20Avellaneda%204676%2C%20B1645CQY%20Virreyes%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1648748921494!5m2!1ses-419!2sar" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
 
-<%= simple_form_for @user do |f| %>
-  <%= f.input :name, placeholder: 'Tu nombre...'  %>
-  <%= f.input :coment %>
-  <%= f.input :email, placeholder: 'user@domain.com'  %>
-  <%= f.submit 'Enviar formulario' %>
-<% end %>
-
+  <div class="form">
+    <h2>Escribinos:</h2>
+    <%= simple_form_for @user do |f| %>
+      <%= f.input :name, placeholder: 'Tu nombre...'  %>
+      <%= f.input :coment, placeholder: 'Tu consulta' %>
+      <%= f.input :email, placeholder: 'user@domain.com'  %>
+      <%= f.submit 'Enviar formulario' %>
+    <% end %>
+  </div>
+</div>
