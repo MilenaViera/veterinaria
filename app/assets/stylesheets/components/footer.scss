@@ -43,3 +43,27 @@ footer{
 
   }
 }
+
+@media(min-width: 768px) {
+  footer{
+    img{
+      width: 170px;
+    }
+    .contactos{
+      display: flex;
+      align-items: center;
+      ul{
+        li{
+          list-style: none;
+          color: $air-blue;
+          font-size: 15px;
+          padding-top: 11px;
+          i{
+            color: $purple-plum;
+          }
+        }
+      }
+
+    }
+  }
+  }
