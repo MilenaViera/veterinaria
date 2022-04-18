@@ -5,6 +5,7 @@
   #card-servicios{
     background-color: $honeywhite;
     box-shadow: -8px 10px 15px -3px rgba(0,0,0,0.1),0px 10px 15px -3px rgba(0,0,0,0.1);
+    width: 10rem;
     p{
       font-size: x-small;
       color: $air-blue;
@@ -53,3 +54,27 @@
   color: #efb810;
 }
 }
+
+
+ @media(min-width: 768px) {
+  #card-vet{
+    width: 40rem;
+    h5{
+      color: $dark-violet;
+      text-align: center;
+    }
+    .card-body{
+      padding: 2rem 1rem;
+    }
+  }
+  .container-grid {
+    display: grid;
+    grid-gap: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 66px;
+      #card-servicios{
+        width: 15rem;
+        height: 10rem;
+      }
+  }
+ }

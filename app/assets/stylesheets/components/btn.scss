@@ -5,12 +5,11 @@
   color: white;
   border: white;
 }
-.btn-default{
-  background: #000000;
+.btn-inicio{
+  background: #fa408b;
   border-radius: 4px;
   width: 200px;
   color: white;
-  border: white;
   margin-bottom: 20px;
   &:hover {
     background: #ff13a5;
@@ -18,5 +17,4 @@
     transition: all 0.2s ease;
     color: white;
   }
-
 }
