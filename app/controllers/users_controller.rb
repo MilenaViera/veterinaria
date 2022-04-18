@@ -12,6 +12,10 @@ class UsersController < ApplicationController
     PruebaCorreosMailer.enviarme(user_params).deliver_now
   end
 
+  def edit
+    render "create"
+  end
+
   private
 
   def user_params

@@ -4,4 +4,18 @@
     color: $air-blue;
     justify-content: center;
   }
+  .btn-enviar{
+    background: #f458b7;
+    border-radius: 4px;
+    width: 200px;
+    color: white;
+    border: white;
+    margin-bottom: 20px;
+    &:hover {
+      background: #ff13a5;
+      box-shadow: 0 4px 16px rgb(228, 53, 161);
+      transition: all 0.2s ease;
+    }
+
+  }
 }
